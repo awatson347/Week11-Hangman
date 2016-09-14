@@ -42,7 +42,7 @@ var Word = function(wrd) {
     this.checkIfLetterFound = function(guessLetter) {
         //set a variable whatToReturn to 0
         var whatToReturn = 0;
-        .
+        
         for (var i = 0; i < this.lets.length; i++) {
             // console.log(this.lets[i])
             if (guessLetter === this.lets[i].charac) {
